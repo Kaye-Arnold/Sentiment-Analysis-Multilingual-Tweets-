@@ -1,0 +1,5 @@
+language,source,train,validation,test,total
+Amharic,AfriSenti,5984,1497,1999,9480
+Swahili,AfriSenti,1810,453,748,3011
+English,TweetEval sentiment,45615,2000,12284,59899
+Total,—,53409,3950,15031,72390

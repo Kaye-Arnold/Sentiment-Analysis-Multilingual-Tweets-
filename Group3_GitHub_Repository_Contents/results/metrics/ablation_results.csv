@@ -1,0 +1,5 @@
+run_name,changed_factor,setting,batch_size,learning_rate,max_length,validation_f1_macro
+xlmr_main,baseline,batch=8; lr=2e-5; max_length=128,8,2e-05,128,0.5884476654294559
+ablation_batch16,batch_size,16,16,2e-05,128,0.6021025552297569
+ablation_lr3e5,learning_rate,3e-5,8,3e-05,128,0.5770894835133179
+ablation_seq96,max_length,96,8,2e-05,96,0.5499093290986958

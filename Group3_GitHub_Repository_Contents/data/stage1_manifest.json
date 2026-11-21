@@ -1,0 +1,110 @@
+{
+  "project": "Group 3 Multilingual Tweet Sentiment Analysis",
+  "stage": "Stage 1 — Dataset Acquisition and Validation",
+  "retrieved_at_utc": "2026-11-20T13:50:24.203553+00:00",
+  "python_version": "3.13.16",
+  "package_versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "datasets": "5.2.0"
+  },
+  "sources": {
+    "AfriSenti": {
+      "repository": "https://github.com/afrisenti-semeval/afrisent-semeval-2023",
+      "raw_base_url": "https://raw.githubusercontent.com/afrisenti-semeval/afrisent-semeval-2023/main/data",
+      "language_codes_used": {
+        "amharic": "amh",
+        "swahili": "swa"
+      },
+      "source_urls": {
+        "amharic": {
+          "train": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/amh/train.tsv?ref=main",
+          "validation": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/amh/dev.tsv?ref=main",
+          "test": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/amh/test.tsv?ref=main"
+        },
+        "swahili": {
+          "train": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/swa/train.tsv?ref=main",
+          "validation": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/swa/dev.tsv?ref=main",
+          "test": "https://api.github.com/repos/afrisenti-semeval/afrisent-semeval-2023/contents/data/swa/test.tsv?ref=main"
+        }
+      }
+    },
+    "TweetEval": {
+      "huggingface_dataset": "cardiffnlp/tweet_eval",
+      "configuration": "sentiment",
+      "revision": "main"
+    }
+  },
+  "language_sources": {
+    "amharic": "AfriSenti",
+    "swahili": "AfriSenti",
+    "english": "TweetEval"
+  },
+  "canonical_label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "row_counts": [
+    {
+      "dataset": "AfriSenti",
+      "language": "amharic",
+      "source_split": "test",
+      "number_of_tweets": 1999
+    },
+    {
+      "dataset": "AfriSenti",
+      "language": "amharic",
+      "source_split": "train",
+      "number_of_tweets": 5984
+    },
+    {
+      "dataset": "AfriSenti",
+      "language": "amharic",
+      "source_split": "validation",
+      "number_of_tweets": 1497
+    },
+    {
+      "dataset": "AfriSenti",
+      "language": "swahili",
+      "source_split": "test",
+      "number_of_tweets": 748
+    },
+    {
+      "dataset": "AfriSenti",
+      "language": "swahili",
+      "source_split": "train",
+      "number_of_tweets": 1810
+    },
+    {
+      "dataset": "AfriSenti",
+      "language": "swahili",
+      "source_split": "validation",
+      "number_of_tweets": 453
+    },
+    {
+      "dataset": "TweetEval",
+      "language": "english",
+      "source_split": "test",
+      "number_of_tweets": 12284
+    },
+    {
+      "dataset": "TweetEval",
+      "language": "english",
+      "source_split": "train",
+      "number_of_tweets": 45615
+    },
+    {
+      "dataset": "TweetEval",
+      "language": "english",
+      "source_split": "validation",
+      "number_of_tweets": 2000
+    }
+  ],
+  "notes": [
+    "English comes from TweetEval, not AfriSenti.",
+    "Labels were normalized by their names, not by raw integer IDs.",
+    "Raw tweet text was not cleaned or normalized in Stage 1.",
+    "The Hugging Face dataset and upstream repository metadata should be rechecked before redistribution."
+  ]
+}

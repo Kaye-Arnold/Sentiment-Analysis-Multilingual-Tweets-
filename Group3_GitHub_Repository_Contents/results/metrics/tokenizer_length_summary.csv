@@ -1,0 +1,7 @@
+tokenizer,language,n_sampled,p50_tokens,p90_tokens,p95_tokens,max_tokens
+mBERT,swahili,250,36.0,61.0,73.54999999999998,92
+mBERT,amharic,250,21.0,31.0,33.0,62
+mBERT,english,250,34.0,45.0,48.54999999999998,59
+XLM-RoBERTa,swahili,250,29.0,46.0,55.0,68
+XLM-RoBERTa,amharic,250,38.0,58.099999999999994,62.0,68
+XLM-RoBERTa,english,250,33.0,44.0,45.0,55

@@ -1,0 +1,62 @@
+{
+  "project": "Group 3 Multilingual Tweet Sentiment Analysis",
+  "dataset_provenance": {
+    "amharic": "AfriSenti",
+    "swahili": "AfriSenti",
+    "english": "TweetEval sentiment"
+  },
+  "canonical_labels": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "main_model": "xlm-roberta-base",
+  "baseline_model": "Bidirectional LSTM",
+  "main_training": {
+    "max_epochs": 5,
+    "early_stopping_patience": 2,
+    "gradient_clip_norm": 1.0,
+    "batch_size": 8,
+    "learning_rate": 2e-05,
+    "max_sequence_length": 128,
+    "balanced_languages": true
+  },
+  "normalization_replacement_totals": {
+    "urls": 479,
+    "mentions": 28143,
+    "emoji_sequences": 1978,
+    "slang_terms": 1579
+  },
+  "run_ablations": true,
+  "run_crosslingual": true,
+  "device": "cuda",
+  "generated_utc": "2026-11-20T14:33:30.553247+00:00",
+  "figures": [
+    "ablation_validation_f1.png",
+    "crosslingual_sw_train_amharic_confusion_matrix.png",
+    "crosslingual_sw_train_amharic_roc.png",
+    "crosslingual_sw_train_english_confusion_matrix.png",
+    "crosslingual_sw_train_english_roc.png",
+    "crosslingual_sw_train_swahili_confusion_matrix.png",
+    "crosslingual_sw_train_swahili_roc.png",
+    "language_distribution_by_split.png",
+    "lstm_all_confusion_matrix.png",
+    "lstm_all_roc.png",
+    "lstm_amharic_confusion_matrix.png",
+    "lstm_amharic_roc.png",
+    "lstm_english_confusion_matrix.png",
+    "lstm_english_roc.png",
+    "lstm_swahili_confusion_matrix.png",
+    "lstm_swahili_roc.png",
+    "training_label_proportions.png",
+    "xlmr_all_confusion_matrix.png",
+    "xlmr_all_roc.png",
+    "xlmr_amharic_confusion_matrix.png",
+    "xlmr_amharic_roc.png",
+    "xlmr_attention_heatmap.png",
+    "xlmr_english_confusion_matrix.png",
+    "xlmr_english_roc.png",
+    "xlmr_swahili_confusion_matrix.png",
+    "xlmr_swahili_roc.png"
+  ]
+}

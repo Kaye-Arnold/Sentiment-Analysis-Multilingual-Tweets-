@@ -1,0 +1,231 @@
+{
+  "project": "Group 3 Multilingual Tweet Sentiment Analysis",
+  "file_count": 45,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 3279,
+      "sha256": "9c196068a4d670045aec5663ab4e42b4815b3a61265c3740b18485ddf4d0d7d3"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 1827,
+      "sha256": "4d05113d3666c62707242185f47749c86b283b08ff5f1bd49d8d0f49674cc450"
+    },
+    {
+      "path": "data/label_mapping.json",
+      "size_bytes": 53,
+      "sha256": "37d1487643d4a1642c1528e5f0c316243f4512a863f209bb021a5d9e2e162f97"
+    },
+    {
+      "path": "data/split_summary.csv",
+      "size_bytes": 207,
+      "sha256": "1b942792db8e38bf8f47f572cb9891e5cf6fb2dd399797e4ded14fa2aa010fbd"
+    },
+    {
+      "path": "data/stage1_manifest.json",
+      "size_bytes": 3396,
+      "sha256": "b18164f69a42c142dca6473a382022029dc19c7ef322701d033da3d421000c9c"
+    },
+    {
+      "path": "docs/assignment_artifact_matrix.md",
+      "size_bytes": 3053,
+      "sha256": "b8848462ecff5efad78e196afb556b90dc1de5cd2456340d4077c3c5ad469808"
+    },
+    {
+      "path": "docs/reproducibility_and_execution.md",
+      "size_bytes": 1661,
+      "sha256": "20190e75ea4eabbe9830b9f5187882eb77c8a9eccca8918325834e6d20c2f4f5"
+    },
+    {
+      "path": "figures/ablation/ablation_validation_f1.png",
+      "size_bytes": 142832,
+      "sha256": "e7d2686b2f05548bfba7f25ce7bd059de01c55b338cf59073ff4233b28af06f0"
+    },
+    {
+      "path": "figures/cross_lingual/confusion_matrices/crosslingual_sw_train_amharic_confusion_matrix.png",
+      "size_bytes": 109178,
+      "sha256": "7b9dc60b94447bb46302f17de371f01e086d26cc680667a4eab615ba0ac04f60"
+    },
+    {
+      "path": "figures/cross_lingual/confusion_matrices/crosslingual_sw_train_english_confusion_matrix.png",
+      "size_bytes": 112423,
+      "sha256": "a93341e5e4a0845def5664c579434406e1afe24e28bb8c42d3630bb5cd5add3d"
+    },
+    {
+      "path": "figures/cross_lingual/confusion_matrices/crosslingual_sw_train_swahili_confusion_matrix.png",
+      "size_bytes": 109201,
+      "sha256": "05da1bd9d8c2ab23b08170888c58cac52071e545d4a47095fe978d9ec9c187e3"
+    },
+    {
+      "path": "figures/cross_lingual/roc_curves/crosslingual_sw_train_amharic_roc.png",
+      "size_bytes": 202939,
+      "sha256": "43dbe87ee354ac6ff3c6150c1c5c664bddef8c78f9589886509f5255f6093ab4"
+    },
+    {
+      "path": "figures/cross_lingual/roc_curves/crosslingual_sw_train_english_roc.png",
+      "size_bytes": 201439,
+      "sha256": "19e61647f94295a6fc7f89ef0282007efe85fe22de4bad55546e56e5a153e6bc"
+    },
+    {
+      "path": "figures/cross_lingual/roc_curves/crosslingual_sw_train_swahili_roc.png",
+      "size_bytes": 183922,
+      "sha256": "970800cc159b5aefc09798de8b937db4825b77cfa4634b80c9b150628da47bb1"
+    },
+    {
+      "path": "figures/eda/language_distribution_by_split.png",
+      "size_bytes": 106207,
+      "sha256": "98ba513571978a75cdfc1f32d37dea63ff5de217becd89e16ecf23da2ccc7ff5"
+    },
+    {
+      "path": "figures/eda/raw_tweet_lengths.png",
+      "size_bytes": 51142,
+      "sha256": "08a13862602b4b0449ecda02c9b30f66f318ab2fc8df2de60118026e0cb4fd75"
+    },
+    {
+      "path": "figures/eda/training_label_proportions.png",
+      "size_bytes": 107450,
+      "sha256": "dbdf65ce138cd00cd09b32caa51056b7ed3d5af37b2100f94414d0ebc6ab6d83"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/lstm_all_confusion_matrix.png",
+      "size_bytes": 125596,
+      "sha256": "174e5c6ac527dfa6990e24cb81d73fa2f2891040e2a5df08fa925c31275aa510"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/lstm_amharic_confusion_matrix.png",
+      "size_bytes": 102640,
+      "sha256": "8db14522f3f4ede3638231568dec2274f2b9daacec42544aba1d74adb39c683a"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/lstm_english_confusion_matrix.png",
+      "size_bytes": 120329,
+      "sha256": "44d3cf902499852799fb8defc387e2ceba669cc6c18a4252363ec80a9d7c0218"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/lstm_swahili_confusion_matrix.png",
+      "size_bytes": 96308,
+      "sha256": "9867c0660c3e9dc968184fbf2f2d663f75a06d8f8d35b4e600d391a050d0dfde"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/xlmr_all_confusion_matrix.png",
+      "size_bytes": 129160,
+      "sha256": "8472baa44acc79d7ccc99307b3b9743eae09b154b699a23b7c2bd5372a9f2c2e"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/xlmr_amharic_confusion_matrix.png",
+      "size_bytes": 116588,
+      "sha256": "e8c4b937d68a12371d95755c7d4771e1d11711ca91f99b792cdf66af0d88f17a"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/xlmr_english_confusion_matrix.png",
+      "size_bytes": 124266,
+      "sha256": "5543da43c42654da8742bf0afe17e4135a0afeb7c71ec77e99d6a4c9d8058252"
+    },
+    {
+      "path": "figures/evaluation/confusion_matrices/xlmr_swahili_confusion_matrix.png",
+      "size_bytes": 97257,
+      "sha256": "9a08e891b809455d2801ad17696d7d8ff38fce9eca4369c869d9a39c1ad08b7e"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/lstm_all_roc.png",
+      "size_bytes": 190111,
+      "sha256": "3d2839a4ae6f7a6bcbdbb7037f0a98b67f7c560766b14be42e4241d21fddb872"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/lstm_amharic_roc.png",
+      "size_bytes": 194210,
+      "sha256": "d592b765c6bca7a3d4cd12ba4a058e9cf3fe33126e3b82efe1a6a6400b82e8ac"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/lstm_english_roc.png",
+      "size_bytes": 194752,
+      "sha256": "5370d5ea7bc87d76e3cfcf3e957366fad4f1739f3a6111a0272303de0a9e8468"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/lstm_swahili_roc.png",
+      "size_bytes": 176758,
+      "sha256": "b5be293149d1246e9e3212ccda46ce3676ce20ee7b11379f191096a96fadb9e6"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/xlmr_all_roc.png",
+      "size_bytes": 197481,
+      "sha256": "b010f7b86c520a49daf781290f06c8c51d898a61306e8c3f45bdc93ab959ea27"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/xlmr_amharic_roc.png",
+      "size_bytes": 185870,
+      "sha256": "eda4980b15231c6379be315dcd98879dbf2f60263becdb5a9a639ad4827e95cd"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/xlmr_english_roc.png",
+      "size_bytes": 193654,
+      "sha256": "1b7a3c5d9d79ed9beca19429ed88f654aa47c44abaa902a67626bfcf46773936"
+    },
+    {
+      "path": "figures/evaluation/roc_curves/xlmr_swahili_roc.png",
+      "size_bytes": 175954,
+      "sha256": "41a4ff0fe87a935d96f58fc80a4d32096426f0510b8bb331391d69aac95d3146"
+    },
+    {
+      "path": "figures/interpretability/xlmr_attention_heatmap.png",
+      "size_bytes": 126914,
+      "sha256": "0b86ce050609e6c32afaf7b9c23eecb0790d9a2001e491f13d75d3096ee9f59d"
+    },
+    {
+      "path": "notebooks/Group3_Sentiment_Analysis.ipynb",
+      "size_bytes": 461004,
+      "sha256": "9b077683aff1883a9f763db253576c2987d0ba43c4337ff7614ee81cf36055c8"
+    },
+    {
+      "path": "reports/Group3_Sentiment_Analysis_Report.docx",
+      "size_bytes": 834809,
+      "sha256": "7d806d8af9b88501b232885058b706ad1ae1027d0d59a458458df20e46eb31e1"
+    },
+    {
+      "path": "results/metrics/ablation_results.csv",
+      "size_bytes": 358,
+      "sha256": "cb8faed44929a4948763d7f5a28cc4516c6b4931273ac3cf4176a8654eecdd9b"
+    },
+    {
+      "path": "results/metrics/crosslingual_sw_train_metrics.csv",
+      "size_bytes": 454,
+      "sha256": "aa035cd7b6de0a5e41b336b0fd1726d43ee1e243e0d7e9666364e3c399b3140b"
+    },
+    {
+      "path": "results/metrics/lstm_test_metrics.csv",
+      "size_bytes": 570,
+      "sha256": "b08d1e37a47fcaad0b9d6d76bf629431fec66c12dc3247adc59a96b21c784fd3"
+    },
+    {
+      "path": "results/metrics/model_comparison_metrics.csv",
+      "size_bytes": 1065,
+      "sha256": "cfc134d295c3bed705e1412079035fb2fe1bc9f6afef1c61851099d212e2085a"
+    },
+    {
+      "path": "results/metrics/tokenizer_length_summary.csv",
+      "size_bytes": 347,
+      "sha256": "baad385ba00b2ffd69d4e6e3a3793d61c83ecd0b1cc381fa18c9b3e11834e829"
+    },
+    {
+      "path": "results/metrics/xlmr_test_metrics.csv",
+      "size_bytes": 579,
+      "sha256": "3539ddb9ca97ecea32f2bc1bc5e96aae2c7dc00faa93a63aa02a2756ab930d1c"
+    },
+    {
+      "path": "results/predictions/xlmr_test_predictions_text_redacted.csv",
+      "size_bytes": 700087,
+      "sha256": "ac432dd46beb34f53d4882b5f9ef5bcf378ad2f278965196b16e78b7b2e96026"
+    },
+    {
+      "path": "results/training/experiment_summary.json",
+      "size_bytes": 1852,
+      "sha256": "cd8cea8e74c8edb58241604036497c2dbf42a0c11159b5cae4d8c23e2fff64dd"
+    },
+    {
+      "path": "results/training/lstm_training_history.csv",
+      "size_bytes": 308,
+      "sha256": "f1d3891d232be3cad4ff8a6d6c28ffb75c4e22cb70b1d0f09300f066c8f6b7de"
+    }
+  ]
+}
